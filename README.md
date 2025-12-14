@@ -46,7 +46,7 @@
 
 ## 🔬 技术原理
 
-本平台后端采用经过大量真实样本训练的 **U-Net 分割模型**。
+本平台后端采用经过大量真实样本训练的 **分割模型**。
 1.  **预处理**: 视频抽帧与人脸关键点定位。
 2.  **推理**: 使用 PyTorch 加载 `best_model_Unet.pth` 权重，对眼睑区域进行像素级分割。
 3.  **后处理**: 使用 pandas 与 numpy 进行信号处理，设定阈值（如 Drop Threshold）来判定眨眼事件。
@@ -59,4 +59,4 @@
 
 ---
 
-© 2024 Ocula Analysis Team. All Rights Reserved.
+© 2025 Ocula Analysis Team. All Rights Reserved.
