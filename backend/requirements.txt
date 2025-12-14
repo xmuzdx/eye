@@ -1,0 +1,21 @@
+# 核心深度学习框架
+torch>=1.13.0
+torchvision>=0.14.0
+
+# 分割模型库 (SMP)
+segmentation-models-pytorch
+
+# 视频与图像处理 (读取视频帧必须)
+opencv-python
+pillow
+
+# 数据处理与分析 (对应你的 blink_analysis.py)
+numpy
+pandas
+matplotlib
+openpyxl
+
+# Web 服务框架 (建议)
+fastapi
+python-multipart
+uvicorn

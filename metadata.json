@@ -1,0 +1,5 @@
+{
+  "name": "Ocula Blink Analyst",
+  "description": "A professional dashboard for analyzing eye blink patterns using video segmentation data. Features real-time visualization of eyelid area and complete/incomplete blink classification.",
+  "requestFramePermissions": []
+}
